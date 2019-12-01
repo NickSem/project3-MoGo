@@ -264,7 +264,7 @@
     .services-content__items_pic {
       width: 48%;
       height: 300px;
-      background: url(../../images/what-we-do.jpg) no-repeat top center; }
+      background: url(images/what-we-do.jpg) no-repeat top center; }
 
 .services-select {
   width: 48%; }
