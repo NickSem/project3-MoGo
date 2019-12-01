@@ -1,0 +1,180 @@
+.footer {
+  margin-top: 60px;
+  min-height: 515px;
+  background-color: #f8f8f8;
+}
+
+.footer-top-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+  border-bottom: 1px solid lightgrey;
+}
+
+.subscribe-block {
+  width: 410px;
+  color: lightgrey;
+
+  &__logo {
+    font-family: $montserrat-font;
+    font-size: 48px;
+  }
+
+  &__text {
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 22px;
+    color: lightgrey;
+  }
+
+  &__followers {
+    margin-top: 40px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
+    font-family: $montserrat-font;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+
+    &_count {
+      font-size: 18px;
+    }
+  }
+
+  &__links {
+    margin: 20px 0 35px;
+
+    & > em {
+      display: inline-block;
+      padding-right: 15px;
+    }
+
+    & > a {
+      display: inline-block;
+      padding-right: 12px;
+
+      img {
+        height: 14px;
+        width: auto;
+      }
+    }
+  }
+
+  &__input {
+    width: 220px;
+    height: 30px;
+    padding: 0 5px;
+    margin-bottom: 35px;
+    border: none;
+
+    &::placeholder {
+      font-style: italic;
+      color: lightgrey;
+    }
+  }
+
+  &__submit {
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: #95e1d3;
+    transform: translateX(-3px);
+
+    font-family: $montserrat-font;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+
+.blogs-block {
+  width: 330px;
+  height: 100%;
+
+  &__name {
+    font-family: $montserrat-font;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  &__posts {
+    margin: 40px 0 30px;
+
+    &_post {
+      display: flex;
+      height: 33%;
+      margin-bottom: 25px;
+      text-decoration: none;
+
+      &__img {
+        width: auto;
+        height: 80px;
+        margin-right: 10px;
+      }
+
+      &__text {
+        padding-top: 15px;
+        font-family: $montserrat-font;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+
+        &_date {
+          font-family: $roboto-font;
+          font-size: 12px;
+          text-transform: none;
+          color: lightgrey;
+        }
+      }
+    }
+  }
+}
+
+.instagram-block {
+  width: 255px;
+
+  &__name {
+    font-family: $montserrat-font;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  &__photos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 30px;
+
+    a {
+      width: 31%;
+      margin-right: 3px;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+      }
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+  }
+}
+
+.footer-bottom-content {
+  padding: 15px;
+  text-align: center;
+  font-family: $montserrat-font;
+  font-size: 14px;
+  font-weight: bold;
+
+  a {
+    color: rgba(243, 129, 129, 0.9);
+  }
+}

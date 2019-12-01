@@ -1,0 +1,36 @@
+@import "fonts";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $roboto-font;
+}
+
+.content-wrapper {
+  width: 100%;
+
+  & > div {
+    max-width: 70%;
+    margin: 0 auto;
+
+    & > h4 {
+      margin-top: 60px;
+      font-family: $kaushan-font;
+      font-size: 20px;
+    }
+
+    & > h3 {
+      margin-top: 10px;
+      font-family: $montserrat-font;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+
+    & > hr {
+      width: 45px;
+      margin-top: 35px;
+      background-color: rgba(243, 129, 129, 0.9);
+      border: 1px solid rgba(243, 129, 129, 0.9);
+    }
+  }
+}

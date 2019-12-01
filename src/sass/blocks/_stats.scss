@@ -1,0 +1,42 @@
+.stats-wrapper {
+  margin-top: 60px;
+  min-height: 200px;
+  background-color: #95e1d3;
+}
+
+.stats-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__stat {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-left: 1px solid white;
+
+    font-family: $montserrat-font;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    user-select: none;
+
+    &:last-child {
+      border-right: 1px solid white;
+    }
+
+    &_num {
+      font-size: 56px;
+      margin-bottom: 15px;
+    }
+
+    &_text {
+      font-size: 12px;
+      text-align: center;
+    }
+  }
+}
