@@ -25,7 +25,7 @@
 
 .header {
   height: 720px;
-  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)), url(images/header-eagle.jpg) no-repeat 50% 50%;
+  background: linear-gradient(to bottom, rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)), url(../images/header-eagle.jpg) no-repeat 50% 50%;
   background-size: cover;
   position: relative; }
   .header-content {
@@ -119,13 +119,13 @@
         width: 100%;
         height: 100%; }
         .about-content-links a .bg-image.image-1 {
-          background: url(images/about-1.jpg) no-repeat 50% 50%;
+          background: url(../images/about-1.jpg) no-repeat 50% 50%;
           background-size: cover; }
         .about-content-links a .bg-image.image-2 {
-          background: url(images/about-2.jpg) no-repeat 50% 45%;
+          background: url(../images/about-2.jpg) no-repeat 50% 45%;
           background-size: cover; }
         .about-content-links a .bg-image.image-3 {
-          background: url(images/about-3.jpg) no-repeat 50% 50%;
+          background: url(../images/about-3.jpg) no-repeat 50% 50%;
           background-size: cover; }
         .about-content-links a .bg-image > .hover-effect {
           display: none;
@@ -213,7 +213,7 @@
 .design-wrapper {
   margin: 60px 0;
   height: 720px;
-  background: url(images/devices-back.jpg) no-repeat top center;
+  background: url(../images/devices-back.jpg) no-repeat top center;
   background-size: cover; }
 
 .design-content {
@@ -264,7 +264,7 @@
     .services-content__items_pic {
       width: 48%;
       height: 300px;
-      background: url(images/what-we-do.jpg) no-repeat top center; }
+      background: url(../images/what-we-do.jpg) no-repeat top center; }
 
 .services-select {
   width: 48%; }
